@@ -12,9 +12,9 @@ const Header = ({ siteTitle }) => (
       />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
-          <Nav.Link href="SLL">Singly-Linked List</Nav.Link>
-          <Nav.Link href="BST">Binary Search Tree</Nav.Link>
-          <Nav.Link href="MBH">Max Binary Heap</Nav.Link>
+          <Nav.Link href="/LinkedList/">Singly-Linked List</Nav.Link>
+          <Nav.Link href="/BinarySearchTree/">Binary Search Tree</Nav.Link>
+          <Nav.Link href="/MaxBinaryHeap/">Max Binary Heap</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

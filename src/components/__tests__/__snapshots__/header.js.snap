@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders correctly 1`] = `
+<div>
+  <nav
+    className="navbar navbar-expand-lg navbar-dark bg-dark"
+  >
+    <a
+      className="navbar-brand"
+      href="/"
+    >
+      Portfolio
+    </a>
+    <button
+      aria-controls="basic-navbar-nav"
+      aria-label="Toggle navigation"
+      className="navbar-toggler collapsed"
+      id="overrides-nav-toggler"
+      onClick={[Function]}
+      type="button"
+    >
+      <span
+        className="navbar-toggler-icon"
+      />
+    </button>
+    <div
+      aria-expanded={null}
+      className="navbar-collapse collapse"
+      id="basic-navbar-nav"
+    >
+      <div
+        className="mr-auto navbar-nav"
+        onKeyDown={[Function]}
+      >
+        <a
+          className="nav-link"
+          data-rb-event-key="/LinkedList/"
+          href="/LinkedList/"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+        >
+          Singly-Linked List
+        </a>
+        <a
+          className="nav-link"
+          data-rb-event-key="/BinarySearchTree/"
+          href="/BinarySearchTree/"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+        >
+          Binary Search Tree
+        </a>
+        <a
+          className="nav-link"
+          data-rb-event-key="/MaxBinaryHeap/"
+          href="/MaxBinaryHeap/"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+        >
+          Max Binary Heap
+        </a>
+      </div>
+    </div>
+  </nav>
+</div>
+`;

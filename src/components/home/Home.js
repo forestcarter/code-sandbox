@@ -12,7 +12,7 @@ export default () => (
         <a href="https://www.typescriptlang.org/">Typescript</a> and tested with
         <a href="https://jestjs.io//"> Jest</a> and{" "}
         <a href="https://airbnb.io/enzyme/">Enzyme</a>. This site was built
-        using ReactJS in GatsbyJS>. Hosting and CI/CD provided by{" "}
+        using ReactJS in GatsbyJS. Hosting and CI/CD provided by{" "}
         <a href="https://aws.amazon.com/amplify/">AWS Amplify</a>.
       </p>
 

@@ -3,6 +3,17 @@
 	
 }
 
+#description{
+	margin-bottom: 0px;
+}
+
+#sectionHeaderBST {
+	margin-top: 20px;
+
+	margin-bottom: 20px;
+	padding-top: 0px;
+}
+
 .bstContainer {
     display: flex;
 	justify-content: center;
@@ -23,7 +34,7 @@
 .bstLabel{
 	text-align: center;
 	font-family: 'Press Start 2P', cursive;
-	font-size: x-small;
+	font-size: medium;
 	padding: 15px 10px 0px 10px;
 	height: 30px;
 }
@@ -34,5 +45,5 @@
 
 #addItemButton{
 	margin-top:10px;
-	margin-bottom:70px;
+	margin-bottom:40px;
 }
