@@ -1,0 +1,49 @@
+.pageContainer{
+	text-align: center;
+	
+}
+
+#description{
+	margin-bottom: 0px;
+}
+
+#sectionHeaderBST {
+	margin-top: 20px;
+
+	margin-bottom: 20px;
+	padding-top: 0px;
+}
+
+.bstContainer {
+    display: flex;
+	justify-content: center;
+	width: 100%
+}
+
+.addNumberContainer{
+	width:100px;
+	margin:auto;
+	margin-top:30px;
+}
+
+.flexRow {
+    display: flex;
+    justify-content: center;
+}
+
+.bstLabel{
+	text-align: center;
+	font-family: 'Press Start 2P', cursive;
+	font-size: medium;
+	padding: 15px 10px 0px 10px;
+	height: 30px;
+}
+
+.directionButton {
+	margin: 0px 20px 0px 20px;
+}
+
+#addItemButton{
+	margin-top:10px;
+	margin-bottom:40px;
+}
