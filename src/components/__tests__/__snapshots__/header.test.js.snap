@@ -59,6 +59,15 @@ exports[`Header renders correctly 1`] = `
         >
           Max Binary Heap
         </a>
+        <a
+          className="nav-link"
+          data-rb-event-key="/GameOfLife/"
+          href="/GameOfLife/"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+        >
+          Game of Life
+        </a>
       </div>
     </div>
   </nav>
