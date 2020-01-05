@@ -3,8 +3,8 @@ import "./GameOfLife.css"
 import { Button } from "react-bootstrap"
 import { produce } from "immer"
 
-const numColumns = 50
-const numRows = 25
+const numColumns = 30
+const numRows = 30
 
 const operations = [
   [0, 1],
@@ -113,8 +113,9 @@ const GOL = () => {
       <div
         style={{
           display: "grid",
-          gridTemplateColumns: `repeat(${numColumns},1.8vw)`,
+          gridTemplateColumns: `repeat(${numColumns},10px)`,
           marginTop: "20px",
+          justifyContent: "center",
         }}
       >
         {grid.map((rows, i) =>
@@ -129,8 +130,8 @@ const GOL = () => {
                 setGrid(newGrid)
               }}
               style={{
-                width: "1.8vw",
-                height: "1.8vw",
+                width: "10px",
+                height: "10px",
                 backgroundColor: grid[i][k] ? "pink" : undefined,
                 border: "solid 1px black",
               }}
@@ -138,9 +139,11 @@ const GOL = () => {
           ))
         )}
       </div>
-      <a id="kudos" href="https://www.youtube.com/watch?v=DvVt11mPuM0">
-        Kudos to Ben Awad!
-      </a>
+      <div style={{ textAlign: "center" }}>
+        <a id="kudos" href="https://www.youtube.com/watch?v=DvVt11mPuM0">
+          Kudos to Ben Awad!
+        </a>
+      </div>
     </>
   )
 }
