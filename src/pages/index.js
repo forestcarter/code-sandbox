@@ -6,7 +6,7 @@ import Home from "../components/home/Home"
 const IndexPage = () => (
   <Layout>
     <SEO
-      title="Home"
+      title="Forest Carter Computer Science Practice"
       keywords={[`gatsby`, `react`, `bootstrap`, `Forest Carter`, `portfolio`]}
     />
     <Home />

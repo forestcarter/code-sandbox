@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 
 const ThirdPage = () => (
   <Layout>
-    <SEO title="Page three" />
+    <SEO title="Binary Search Tree" />
     <BST />
   </Layout>
 )

@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "ForestCarterPortfolio",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Showcase of my work",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "forest.carter <forest.carter@gmail.com>",
   "dependencies": {
     "@types/jest": "^24.0.23",
     "@types/node": "^12.12.17",
@@ -19,6 +19,7 @@
     "gatsby-plugin-typescript": "^2.1.23",
     "gatsby-source-filesystem": "^2.1.39",
     "gatsby-transformer-sharp": "^2.3.6",
+    "immer": "^5.1.0",
     "jest-fetch-mock": "^2.1.2",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",

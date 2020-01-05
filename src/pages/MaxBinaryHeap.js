@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 
 const FourthPage = () => (
   <Layout>
-    <SEO title="Page four" />
+    <SEO title="Max Binary Heap" />
     <MBH />
   </Layout>
 )

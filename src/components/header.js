@@ -15,6 +15,7 @@ const Header = ({ siteTitle }) => (
           <Nav.Link href="/LinkedList/">Singly-Linked List</Nav.Link>
           <Nav.Link href="/BinarySearchTree/">Binary Search Tree</Nav.Link>
           <Nav.Link href="/MaxBinaryHeap/">Max Binary Heap</Nav.Link>
+          <Nav.Link href="/GameOfLife/">Game of Life</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
